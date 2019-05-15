@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import UIKit
+import UIKit.UIImage
 
 class LearnerModel{
     var name: String
