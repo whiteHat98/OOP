@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         
         newLearner = LearnerModel(learnerName: "Randy Noel", learnerAge: 20, learnerHeight: 170.9, learnerImageProfile: #imageLiteral(resourceName: "Image"))
         myCar = CarModel(carBrand: "Mazda", carSpeed: 20.5, color: .red)
-        facilitatorInstance = FacilitatorModel(facilName: "kak Octa", facilAge: 24, facelHeight: 170, facilImageProfile: #imageLiteral(resourceName: <#T##String#>), facilPerk: "Free flow Starbuck")
+        facilitatorInstance = FacilitatorModel(facilName: "kak Octa", facilAge: 24, facelHeight: 170.0, facilImageProfile: #imageLiteral(resourceName: "Image"), facilPerk: "Free flow Starbuck")
         updateUI()
         
     }

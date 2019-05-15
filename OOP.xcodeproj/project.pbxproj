@@ -16,6 +16,7 @@
 		972133CB228BB4D700131441 /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972133CA228BB4D700131441 /* CarModel.swift */; };
 		972133CD228BC4E400131441 /* FacilitatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972133CC228BC4E400131441 /* FacilitatorModel.swift */; };
 		972133CF228BC94700131441 /* MentiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972133CE228BC94700131441 /* MentiModel.swift */; };
+		972133D1228BCCB400131441 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972133D0228BCCB400131441 /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		972133CA228BB4D700131441 /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
 		972133CC228BC4E400131441 /* FacilitatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitatorModel.swift; sourceTree = "<group>"; };
 		972133CE228BC94700131441 /* MentiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentiModel.swift; sourceTree = "<group>"; };
+		972133D0228BCCB400131441 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				972133C8228BA89700131441 /* learnerModel.swift */,
 				972133CE228BC94700131441 /* MentiModel.swift */,
 				972133BA228B9CFB00131441 /* Main.storyboard */,
+				972133D0228BCCB400131441 /* RoundedButton.swift */,
 				972133CC228BC4E400131441 /* FacilitatorModel.swift */,
 				972133BD228B9CFC00131441 /* Assets.xcassets */,
 				972133BF228B9CFC00131441 /* LaunchScreen.storyboard */,
@@ -151,6 +154,7 @@
 				972133CF228BC94700131441 /* MentiModel.swift in Sources */,
 				972133B9228B9CFB00131441 /* ViewController.swift in Sources */,
 				972133C9228BA89700131441 /* learnerModel.swift in Sources */,
+				972133D1228BCCB400131441 /* RoundedButton.swift in Sources */,
 				972133CD228BC4E400131441 /* FacilitatorModel.swift in Sources */,
 				972133B7228B9CFB00131441 /* AppDelegate.swift in Sources */,
 			);
