@@ -25,6 +25,7 @@ class ViewController: UIViewController {
             updateUI()
         }
     }
+    @IBOutlet weak var colorBox: UIView!
     @IBAction func btnGas(_ sender: Any) {
         if let car = myCar{
             car.carGas()
@@ -33,6 +34,7 @@ class ViewController: UIViewController {
     }
     
     var newLearner : LearnerModel?
+    var facilitatorInstance : FacilitatorModel?
     var myCar : CarModel?
     
     override func viewDidLoad() {
@@ -41,8 +43,8 @@ class ViewController: UIViewController {
         print("This is check for repository!")
         
         newLearner = LearnerModel(learnerName: "Randy Noel", learnerAge: 20, learnerHeight: 170.9, learnerImageProfile: #imageLiteral(resourceName: "Image"))
-        myCar = CarModel(carBrand: "Mazda", carSpeed: 20.5)
-        
+        myCar = CarModel(carBrand: "Mazda", carSpeed: 20.5, color: .red)
+        facilitatorInstance = FacilitatorModel(facilName: "kak Octa", facilAge: 24, facelHeight: 170, facilImageProfile: #imageLiteral(resourceName: <#T##String#>), facilPerk: "Free flow Starbuck")
         updateUI()
         
     }
@@ -57,6 +59,7 @@ class ViewController: UIViewController {
         if let car = myCar{
             lblCarBrand.text = "Brand: \(car.brand)"
             lblCarSpeed.text = "Speed: \(car.speed)"
+            colorBox.backgroundColor = car.color
         }
     }
     

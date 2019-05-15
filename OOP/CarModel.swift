@@ -7,14 +7,17 @@
 //
 
 import Foundation
+import UIKit
 
 class CarModel{
     var brand: String
     var speed: Float
+    var color: UIColor
     
-    init(carBrand: String, carSpeed: Float) {
+    init(carBrand: String, carSpeed: Float, color: UIColor) {
         self.brand = carBrand
         self.speed = carSpeed
+        self.color = color
     }
     
     func carGas(){
