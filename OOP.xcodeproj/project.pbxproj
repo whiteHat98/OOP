@@ -12,6 +12,8 @@
 		972133BC228B9CFB00131441 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972133BA228B9CFB00131441 /* Main.storyboard */; };
 		972133BE228B9CFC00131441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 972133BD228B9CFC00131441 /* Assets.xcassets */; };
 		972133C1228B9CFC00131441 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972133BF228B9CFC00131441 /* LaunchScreen.storyboard */; };
+		972133C9228BA89700131441 /* learnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972133C8228BA89700131441 /* learnerModel.swift */; };
+		972133CB228BB4D700131441 /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972133CA228BB4D700131441 /* CarModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		972133BD228B9CFC00131441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		972133C0228B9CFC00131441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		972133C2228B9CFC00131441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		972133C8228BA89700131441 /* learnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnerModel.swift; sourceTree = "<group>"; };
+		972133CA228BB4D700131441 /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				972133B6228B9CFB00131441 /* AppDelegate.swift */,
 				972133B8228B9CFB00131441 /* ViewController.swift */,
+				972133CA228BB4D700131441 /* CarModel.swift */,
+				972133C8228BA89700131441 /* learnerModel.swift */,
 				972133BA228B9CFB00131441 /* Main.storyboard */,
 				972133BD228B9CFC00131441 /* Assets.xcassets */,
 				972133BF228B9CFC00131441 /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				972133CB228BB4D700131441 /* CarModel.swift in Sources */,
 				972133B9228B9CFB00131441 /* ViewController.swift in Sources */,
+				972133C9228BA89700131441 /* learnerModel.swift in Sources */,
 				972133B7228B9CFB00131441 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
